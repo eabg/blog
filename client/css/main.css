@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans:300,400,600,800,300italic,400italic);
+html, body {
+    background-image: url("https://images.pexels.com/photos/159036/bark-pine-tree-texture-159036.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+    background-repeat: repeat;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+html, div, body, p, button, input, textarea {
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 300;
+    color: #3d3d3d;
+}
+h2, h3 {
+  font-family: "Luminari";
+    font-weight: 400;
+}
+h1 {
+    font-family: "Luminari";
+    font-size: 3em;
+}
+li, p {
+    line-height: 1.5em;
+    font-size: 0.9em;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#main {
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    background:#F8F9F9;
+    border: solid #000 5px;
+    padding: 20px;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.comments {
+    background: #F9F9F9;
+    padding: 5px;
+    box-sizing: border-box;
+    border: solid 1px #EEE;
+    border-radius: 4px;
+}
+.comments h3 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.1em;
+}
+.right {
+    float: right;
+}
